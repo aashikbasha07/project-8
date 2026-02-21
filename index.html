@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks - Dark Theme</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* dark background */
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        /* Table container */
+        .table-container {
+            width: 90%;
+            max-width: 900px;
+            overflow-x: auto;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #1e1e1e;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Table headers */
+        th {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 12px;
+            text-align: center;
+            font-size: 1.1em;
+            border: 1px solid #555555; /* column border */
+        }
+
+        /* Table cells */
+        td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #555555; /* row and column borders */
+        }
+
+        /* Alternate row coloring */
+        tr:nth-child(even) {
+            background-color: #2a2a2a;
+        }
+
+        /* Hover effect */
+        tr:hover {
+            background-color: #444444;
+        }
+
+        /* Table title */
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="table-container">
+        <h1>Student Marks</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Math</th>
+                    <th>python</th>
+                    <th>English</th>
+                    <th>Tamil</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jeevan</td>
+                    <td>85</td>
+                    <td>90</td>
+                    <td>78</td>
+                    <td>88</td>
+                    <td>341</td>
+                </tr>
+                <tr>
+                    <td>Vijay Kumar</td>
+                    <td>92</td>
+                    <td>87</td>
+                    <td>95</td>
+                    <td>80</td>
+                    <td>354</td>
+                </tr>
+                <tr>
+                    <td>Ajith</td>
+                    <td>76</td>
+                    <td>85</td>
+                    <td>80</td>
+                    <td>70</td>
+                    <td>311</td>
+                </tr>
+                <tr>
+                    <td>JD</td>
+                    <td>88</td>
+                    <td>92</td>
+                    <td>89</td>
+                    <td>94</td>
+                    <td>363</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
