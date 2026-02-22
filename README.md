@@ -115,8 +115,5 @@ tr:hover {
 }
 Customization
 
-
-
-Add more student rows as needed.
-
-Enhance with sorting or searching functionality using JavaScript.
+ouput:
+https://aashikbasha07.github.io/project-8/
